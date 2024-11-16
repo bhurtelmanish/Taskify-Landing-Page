@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const Loader = () => {
     return (
-        <div className='dark:bg-[var(--darkBackground)] h-screen w-screen flex items-center justify-center'>
+        <div className='dark:bg-[var(--darkBackground)] h-dvh w-screen flex items-center justify-center'>
             <div className='flex gap-1'>
                 {
                     [...Array(3)].map((_ , i) => { 
