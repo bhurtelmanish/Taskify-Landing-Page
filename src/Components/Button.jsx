@@ -1,15 +1,25 @@
+import { motion } from "framer-motion";
 
-const Button = ({buttonValue , buttonColor , buttonHeight , buttonWidth , classButton , icon}) => {
+const Button = ({buttonValue , buttonColor , buttonHeight , buttonWidth , classButton , icon , initial, animate ,exit, transition , rounded , position , top , right}) => {
     const buttonStyles = {
         backgroundColor: buttonColor,
         height: buttonHeight,
-        width: buttonWidth
+        width: buttonWidth,
+        borderRadius: rounded,
+        position: position,
+        top: top,
+        right: right
     }
     return (
-        <button style={buttonStyles} className={`${classButton} flex items-center justify-center gap-1 text-white rounded-md`}>
+        <motion.button 
+         initial={initial}
+         animate={animate}
+         exit={exit}
+         transition={transition}
+         style={buttonStyles} className={`${classButton} flex items-center justify-center gap-1 text-white`}>
             {icon}
             {buttonValue}
-        </button>
+        </motion.button>
     )
 }
 

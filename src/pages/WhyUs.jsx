@@ -5,13 +5,17 @@ import { FaBrain } from "react-icons/fa";
 import { FaClipboardCheck } from "react-icons/fa6";
 import { MdManageSearch } from "react-icons/md";
 import WhyUsCard from "../Components/WhyUsCard";
+import SectionHeader from "../Components/SectionHeader";
 
 
 const WhyUs = () => {
     return (
-        <section className="flex flex-col gap-5 px-4 py-4 ">
-            <div className="font-semibold text-center text-gray-400 text-xl">Why Choose Taskify?</div>
-            <header className="mb-8 w-[18rem] text-slate-800 dark:text-slate-200 m-auto font-semibold text-3xl text-center leading-snug font-poppins laptop:flex laptop:flex-col">Work with AI by <span>Your Side, Every</span> Step of the Way</header>
+        <section id="whyussection" className="flex flex-col gap-5 px-4 py-4 ">
+            {/* This is the Section header component for every page that requires it */}
+            <SectionHeader
+              SectionHeaderTitle="Why Choose Taskify?"
+              SectionHeaderDescription="Work with AI by Your Side, Every Step of the Way" 
+            />
             <div className="flex flex-wrap gap-6 w-full justify-center md:mt-3">
                 <WhyUsCard whyUsCardIcon={<IoMdTime className="text-2xl text-[var(--blueColor)]"/>}  whyUsCardTitle ="Save Time" whyUsCardDescription="Focus on what matters. Let AI handle the busywork of organizing your notes so you can reclaim your time and dedicate it to high-impact tasks." />
 

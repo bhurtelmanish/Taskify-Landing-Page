@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
-    <div className="py-10 tablet:w-[32rem] laptop:w-auto laptop:gap-10 laptop:justify-self-start tablet:m-auto laptop:flex laptop:items-center ">
+    <div id="landingsection" className="py-10 tablet:w-[32rem] laptop:w-auto laptop:gap-10 laptop:justify-self-start tablet:m-auto laptop:flex laptop:items-center ">
         <div className="laptop:w-[45rem]">
             <header className="flex flex-col font-openSans  md:text-4xl md:leading-normal font-bold text-3xl leading-snug text-center laptop:px-0 laptop:items-start laptop:text-4xl laptop:leading-normal">
                 Get Ahead in Your Work
@@ -33,6 +33,7 @@ const LandingPage = () => {
                 buttonValue="Automate your everyday tasks now"
                 buttonHeight="2.6rem"
                 buttonWidth="100%"
+                rounded="0.3rem"
                 classButton="bg-gradient-to-r from-[var(--gradientStart)] to-[var(--gradientEnd)] text-md"
                 icon={<FaArrowRight />}
                 />
