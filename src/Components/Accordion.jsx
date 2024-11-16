@@ -21,7 +21,7 @@ const Accordion = () => {
     
 
     return (
-        <div className=" w-full px-5 laptop:mt-2 laptop:px-14">
+        <div className="w-full px-5 laptop:mt-2 laptop:px-24">
             {
                 accordionData.map((accordion , index) => (
                     <div key={index} className="border-slate-200 dark:border-slate-700 dark:border-b-[0.5px] border-b cursor-pointer py-3">
@@ -43,9 +43,9 @@ const Accordion = () => {
                         <AnimatePresence>
                             {accordion.active && (
                                 <motion.div 
-                                    className="px-6 py-2 h-[5rem]"
+                                    className="px-6 py-2 h-[7rem]"
                                     initial={{ opacity:0 , height: "0"}}
-                                    animate={{ opacity:1 , height: "5rem"}}
+                                    animate={{ opacity:1 , height: "auto"}}
                                     exit={{ opacity:0 , height: "0"}}
                                     transition={{ duration: 0.2, ease: "linear" }}
                                 >
