@@ -1,0 +1,20 @@
+App idea
+
+ - Task Management App Landingpage
+
+ when user go to my website, they can view the landing page and there is login button.
+  if user don't login, they cannot use the product that means they cannot use my notes taking app until or unless they are registered and logged in
+
+  now user can go to the notes taking app through my landinpage(there is a go to note taking app button) or direct url(login is necessary)
+
+  if the user login in landingpage then also he can use the notes taking app and he can also login from the notes taking app(one login is enough)
+
+
+  notes taking app(design from dribbble animated)
+
+  key features
+  - multi folder system(user can create multiple folder or organizations)
+  - multi tags system(user can create tags which will be on left dashboard)
+  - on each folder, there are multiple tasks
+
+  -lastly, an ai model(gemini api) is implemented so that when user request an ordered tasks from his requested task, then the gemini model will give back the proper task response so that user can create a new folder or new tasks in a managed way.
