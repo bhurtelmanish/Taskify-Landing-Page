@@ -46,14 +46,14 @@ const Navbar = ({isDarkModeActive , setIsDarkModeActive}) => {
                             }, 100)}>How It Works</li>
                         </ScrollLink>
                     </div>
-                        <Button
+                        {/* <Button
                             buttonValue="Login"
                             buttonColor="var(--blueColor)"
                             buttonHeight="2.1rem"
                             buttonWidth="6.5rem"
                             classButton="text-sm"
                             rounded="3px"
-                        />
+                        /> */}
                 </ul>
                 </motion.div>
 
