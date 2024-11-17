@@ -47,6 +47,7 @@ const App = () => {
               isDarkModeActive={isDarkModeActive}
               setIsDarkModeActive={setIsDarkModeActive}
             />
+            
             <section className=" dark:bg-[var(--darkBackground)] h-auto dark:text-[var(--lightColor)] laptop:px-12 px-4 pb-20 py-[var(--navbarHeight)]">
               <LandingPage />
               <WhyUs />

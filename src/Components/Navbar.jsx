@@ -17,7 +17,7 @@ const Navbar = ({isDarkModeActive , setIsDarkModeActive}) => {
         <nav className=" px-4 fixed w-full desktop:max-w-[var(--maxWidth)] ipad:w-full laptop:w-full flex border-b-[0.5px] border-[var(--lightBorder)] items-center h-[var(--navbarHeight)] justify-between dark:bg-[var(--darkBackground)] dark:text-[var(--lightColor)] dark:border-[var(--darkBorder)]">
             {/* Nav Logo  */}
             <div className="font-medium text-[1.5rem] cursor-pointer flex items-center gap-1">
-                <img src="/logo2.png" alt="taskify logo image" className="rounded-ipad h-9" />
+                <img src="/logo.png" alt="taskify logo image" className="rounded-ipad h-11" />
                 Taskify
             </div>
 
